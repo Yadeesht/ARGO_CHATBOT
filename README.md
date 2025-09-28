@@ -100,6 +100,7 @@ Available ARGO columns include:
 ---
 
 ## Limitations
-
-- Heavy queries may timeout; the agent will automatically reduce data scope and retry.
+- The complete project is done within 48 hours so we didnt focus much on prompt tunning. work on that.
+- visualization logic need to be tunned sometimes LLM gives wrong suggestion on plot that need to be generated and also after generating we are passing the image to the LLM for summary of the pic so u can remove the image by making LLM to flag the image. 
+- Heavy queries may timeout; the agent will automatically reduce data scope and retry. 
 - Not all float data may be available for all parameters or regions.
