@@ -28,7 +28,6 @@ This project was built for rapid prototyping and public science, making complex 
 - **Google Gemini (via LangChain)**: LLM for language and image analysis
 - **argopy**: ARGO float data access
 - **Plotly, Matplotlib, Seaborn, Folium**: Visualization
-- **dotenv**: Secure API key handling
 
 ---
 
@@ -48,7 +47,7 @@ This project was built for rapid prototyping and public science, making complex 
     ```
 
 3. **Configure API Keys:**
-    - Create a `.env` file and add your Google Gemini and ImgBB API keys.
+    - Create a `.env` file and add your Google Gemini and ImgBB API keys(ImgBB is to have the image at publically accessble to share it with LLM).
       ```
       GOOGLE_API_KEY=your_google_gemini_key
       IMGBB_API=your_imgbb_key
