@@ -103,3 +103,5 @@ Available ARGO columns include:
 - visualization logic need to be tunned sometimes LLM gives wrong suggestion on plot that need to be generated and also after generating we are passing the image to the LLM for summary of the pic so u can remove the image by making LLM to flag the image. 
 - Heavy queries may timeout; the agent will automatically reduce data scope and retry. 
 - Not all float data may be available for all parameters or regions.
+
+This was the first time me working as a team in a large scale. big kudos to my teammates ❤️⚡
